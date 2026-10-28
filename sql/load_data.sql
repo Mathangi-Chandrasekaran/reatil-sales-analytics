@@ -1,0 +1,10 @@
+COPY address FROM '/data/address.csv' DELIMITER ',' CSV HEADER;
+COPY categories FROM '/data/categories.csv' DELIMITER ',' CSV HEADER;
+COPY brands FROM '/data/brands.csv' DELIMITER ',' CSV HEADER;
+COPY customers FROM '/data/customers.csv' DELIMITER ',' CSV HEADER;
+COPY stores FROM '/data/stores.csv' DELIMITER ',' CSV HEADER;
+COPY staffs FROM '/data/staffs.csv' DELIMITER ',' CSV HEADER;
+COPY orders FROM '/data/orders.csv' DELIMITER ',' CSV HEADER;
+COPY products FROM '/data/products.csv' DELIMITER ',' CSV HEADER;
+COPY order_items FROM '/data/order_items.csv' DELIMITER ',' CSV HEADER;
+COPY stocks FROM '/data/stocks.csv' DELIMITER ',' CSV HEADER;
